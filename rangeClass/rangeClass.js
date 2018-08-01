@@ -2,13 +2,13 @@
 * Build a class to represent a range of numbers, modeled after Ruby's "range" class, that takes:
 *   - a beginning index,
 *   - an end index (optional)
-*   - a 'step' (optional) 
+*   - a 'step' (optional)
 *     The step is the interval at which elements are included.
-*     For instance, a step of 1 includes every element in the range, 
+*     For instance, a step of 1 includes every element in the range,
 *     while a step of 2 includes every other element.
 *
 * The range should have a constructor that accepts these arguments in that order.
-* 
+*
 * It should also support the following utility functions:
 *   - size(): return the number of items represented by the range
 *   - each(callback(index)): iterate over the array, passing each value to a callback function
@@ -31,22 +31,3 @@
 * evenNumbers.size() should be 4
 * evenNumbers.includes(2) should be true, evenNumbers.include(3) should be false
 */
-
-
-var Range = function(start, end, step) {
-  // TODO: Your code here
-  
-  this.size = function(){
-    // TODO: Your code here
-  }
-  
-  this.each = function(callback){
-    // TODO: Your code here
-  }
-  
-  this.includes = function(val){
-    // TODO: Your code here
-  }
-  
-  return this;
-}
